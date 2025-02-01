@@ -53,7 +53,7 @@ def main():
 
             print("*************************")
             row = spin_row()
-            print("| ", end="")
+            print("|", end="")
             for element in row:
                 print(f"{element} | ", end="")
             print()
